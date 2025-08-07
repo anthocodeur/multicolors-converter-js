@@ -2,6 +2,14 @@
 
 Toutes les modifications notables de ce projet sont documentées dans ce fichier.
 
+## [1.1.0] - 2025-08-07
+
+## Update Colors and add no hashtag submission in the hexTo... méthods
+
+- Ajout de la liste des couleurs web nommées
+- Prise en compte des codes hexa avec ou sans #
+- Mise a jour du README, ajout du lien du projet Github
+
 ## [1.0.2] - 2025-08-06
 
 ### Correction

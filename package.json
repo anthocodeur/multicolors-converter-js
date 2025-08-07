@@ -1,6 +1,6 @@
 {
   "name": "multicolors-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.cjs.js",
   "type": "module",
   "module": "dist/index.esm.js",
@@ -21,7 +21,8 @@
     "color",
     "converter",
     "typescript",
-    "rollup"
+    "rollup",
+    "tslib"
   ],
   "author": "anthowd",
   "license": "ISC",

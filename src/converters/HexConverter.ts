@@ -7,6 +7,7 @@ export class HexConverter extends Converter {
    */
   static hexToRgb(hex: string): RgbColor | null {
     let found = null;
+    hex = hex.startsWith("#") ? hex : `#${hex}`;
     this.getColors().find((c) => {
       if (c.hex === hex.toUpperCase()) {
         found = c.rgb.split("-").map(Number);
@@ -21,6 +22,7 @@ export class HexConverter extends Converter {
    */
   static hexToRal(hex: string): string | null {
     let found = null;
+    hex = hex.startsWith("#") ? hex : `#${hex}`;
     this.getColors().find((c) => {
       if (c.hex === hex.toUpperCase()) {
         found = c.ral;
@@ -35,6 +37,7 @@ export class HexConverter extends Converter {
    */
   static hexToName(hex: string): string | null {
     let found = null;
+    hex = hex.startsWith("#") ? hex : `#${hex}`;
     this.getColors().find((c) => {
       if (c.hex === hex.toUpperCase()) {
         found = c.name;

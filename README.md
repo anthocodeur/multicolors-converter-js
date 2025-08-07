@@ -95,3 +95,7 @@ Ce projet est sous licence [MIT](LICENSE).
 ## 📞 Contact
 
 Pour toute question ou suggestion, n’hésitez pas à ouvrir une issue ou à me contacter.
+
+## 🌐 GitHub
+
+[Voir le projet sur GitHub](https://github.com/anthocodeur/multicolors-converter)

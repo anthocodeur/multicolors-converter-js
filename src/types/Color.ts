@@ -1,5 +1,5 @@
 export interface Color {
-  ral: string;
+  ral: string | null;
   rgb: string;
   hex: string;
   name: string;
