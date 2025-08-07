@@ -2,9 +2,15 @@
 
 Toutes les modifications notables de ce projet sont documentées dans ce fichier.
 
+## [1.1.1] - 2025-08-07
+
+## Ajout des générations de rgb hex en fonction de la couleur donnée
+
+- Si la couleur n'est pas dans le tableau, alors on trouve la couleur grâce au convertisseur naturel JS
+
 ## [1.1.0] - 2025-08-07
 
-## Update Colors and add no hashtag submission in the hexTo... méthods
+## Mise à jour des couleurs disponibles et le hashtag deien facultatif sur les méthodes hexTo...
 
 - Ajout de la liste des couleurs web nommées
 - Prise en compte des codes hexa avec ou sans #
